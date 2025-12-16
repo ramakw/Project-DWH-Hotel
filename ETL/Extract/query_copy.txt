@@ -1,0 +1,56 @@
+
+-- PMS
+\copy stg_pms.tipe_kamar FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/pms/00-test/tipe_kamar.csv' DELIMITER ',' CSV;
+
+\copy stg_pms.kamar FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/pms/00-test/kamar.csv' DELIMITER ',' CSV;
+
+\copy stg_pms.tamu FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/pms/00-test/tamu.csv' DELIMITER ',' CSV;
+
+\copy stg_pms.reservasi FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/pms/00-test/reservasi.csv' DELIMITER ',' CSV;
+
+\copy stg_pms.reservasi_kamar FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/pms/00-test/reservasi_kamar.csv' DELIMITER ',' CSV;
+
+\copy stg_pms.tarif_tipe_kamar FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/pms/00-test/tarif_tipe_kamar.csv' WITH (FORMAT csv, DELIMITER ',', NULL '\N');
+
+-- FNB
+\copy stg_fnb.kategori_menu FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/fnb/00-test/kategori_menu.csv' DELIMITER ',' CSV;
+
+\copy stg_fnb.menu FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/fnb/00-test/menu.csv' DELIMITER ',' CSV;
+
+\copy stg_fnb.pesanan FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/fnb/00-test/pesanan.csv' DELIMITER ',' CSV;
+
+\copy stg_fnb.detail_pesanan FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/fnb/00-test/detail_pesanan.csv' DELIMITER ',' CSV;
+
+\copy stg_fnb.harga_menu FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/fnb/00-test/harga_menu.csv' WITH (FORMAT csv, DELIMITER ',', NULL '\N');
+
+-- Laundry
+
+\copy stg_laundry.kategori_laundry FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/laundry/00-test/kategori_laundry.csv' DELIMITER ',' CSV;
+
+\copy stg_laundry.layanan_laundry FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/laundry/00-test/layanan_laundry.csv' DELIMITER ',' CSV;
+
+\copy stg_laundry.harga_laundry FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/laundry/00-test/harga_laundry.csv' WITH (FORMAT csv, DELIMITER ',', NULL '\N');
+
+\copy stg_laundry.pesanan_laundry FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/laundry/00-test/pesanan_laundry.csv' DELIMITER ',' CSV;
+
+\copy stg_laundry.detail_pesanan_laundry FROM 'C:/Users/Iguba/Downloads/DWH_Timuring/laundry/00-test/detail_pesanan_laundry.csv' DELIMITER ',' CSV;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
